@@ -1,11 +1,14 @@
-<script setup></script>
+<script setup>
+function onListClick() {
+  alert("L'utilisateur a cliqué pour voir la liste !");
+}
+</script>
 
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <h1>HomePage</h1>
+  <a href="#" @click.prevent="onListClick">
+    Voir la liste des données météo
+  </a>
 </template>
 
-<style scoped></style>
+<style></style>

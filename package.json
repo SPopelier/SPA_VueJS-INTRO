@@ -1,5 +1,8 @@
 {
   "devDependencies": {
     "vite-plugin-vue-devtools": "^8.0.5"
+  },
+  "dependencies": {
+    "vue-router": "^4.6.3"
   }
 }

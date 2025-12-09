@@ -1,6 +1,7 @@
 <script setup>
 import CitiesList from "@/views/CitiesList.vue";
 import Home from "@/views/Home.vue";
+import timeago from 'timeago.js';
 </script>
 
 <template>

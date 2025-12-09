@@ -6,7 +6,7 @@ import Home from "@/views/Home.vue";
 <template>
   <p>Welcome to AppWeather</p>
   <router-view />
-  <router-link to="/Home">Retour à la page d'accueil</router-link>
+  <router-link to="/">Retour à la page d'accueil</router-link>
 </template>
 
 <style></style>

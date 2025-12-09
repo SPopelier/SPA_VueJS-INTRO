@@ -4,9 +4,9 @@ import Home from "@/views/Home.vue";
 </script>
 
 <template>
-
-  <Home />
-  <CitiesList />
+  <p>Welcome to AppWeather</p>
+  <router-view />
+  <router-link to="/Home">Retour à la page d'accueil</router-link>
 </template>
 
 <style></style>
